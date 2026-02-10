@@ -1,0 +1,20 @@
+header{
+    text-align: center;
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+div{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: beige;
+}
+
+footer{
+    background-color: black;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 43px;
+}
+
