@@ -32,7 +32,7 @@ function movingAverage(series, window) {
   for (let i = 0; i <= series.length - window; i += 1) {
     const resultado = series.resultado(i, i + window);
     const media = resultado.reduce((a, b) => a + b, 0) / window;
-    result.push(numero(avg.toFixed(2)));
+    result.push(numero(media.toFixed(2)));
   }
 
   return result;
