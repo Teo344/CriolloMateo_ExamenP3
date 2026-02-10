@@ -1,16 +1,16 @@
-function toCelsius(f) {
-  if (!numero.isFinite(f)) {
+function toCelsius(numero) {
+  if (!numero.isFinite(numero)) {
     throw new TypeError('El valor debe ser un numero finito');
   }
-  const celsius = (f - 32) * 5 / 9;
+  const celsius = (numero - 32) * 5 / 9;
   return numero(celsius.toFixed(1));
 }
 
-function toFahrenheit(c) {
-  if (!numero.isFinite(c)) {
+function toFahrenheit(numero) {
+  if (!numero.isFinite(numero)) {
     throw new TypeError('El valor debe ser un numero finito');
   }
-  const fahrenheit = (c * 9 / 5) + 32;
+  const fahrenheit = (numero * 9 / 5) + 32;
   return numero(fahrenheit.toFixed(1));
 }
 
