@@ -1,17 +1,17 @@
 header{
     text-align: center;
-    background-color: beige;
+    background-color: aquamarine;
     font-family: sans-serif;
 }
 
 div{
     text-align: center;
     font-family: sans-serif;
-    background-color: beige;
+    background-color: aquamarine;
 }
 
 footer{
-    background-color: black;
+    background-color: blue;
     font-family: sans-serif;
     color: aliceblue;
     text-align: center;
